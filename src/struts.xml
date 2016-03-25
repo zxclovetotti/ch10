@@ -15,6 +15,12 @@
                /WEB-INF/page/hello.jsp
             </result>
         </action>
+        
+           <action name="HelloAction2" class = "ch10.HelloAction">
+            <result name="success">
+               /WEB-INF/page/hello.jsp
+            </result>
+        </action>
     </package>
 
     <!-- Add packages here -->

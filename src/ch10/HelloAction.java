@@ -6,7 +6,9 @@ public class HelloAction extends ActionSupport {
 	/**
 	 * 
 	 */
+	
 	private static final long serialVersionUID = 5845039488845012934L;
+	
 	private String username;
 	//setter and getter
 	
@@ -18,9 +20,8 @@ public class HelloAction extends ActionSupport {
 		this.username = username;
 	}
 	
-	public String execute()
-	{
+	public String execute()	{
 		return SUCCESS;
 	}
-	
+
 }
